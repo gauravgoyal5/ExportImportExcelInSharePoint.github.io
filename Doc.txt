@@ -1,0 +1,25 @@
+Import from Excel
+
+Here is the tool which will help you to import excel file into a list. This tool will not create any kind of list or column. It will help users to import theire excel file in specific list. This tool also allows users to update existing records directly from excel file. I have develop the tool in SharePoint Framework.
+
+
+Currenty this tool is for SharePoint Online version only.
+
+
+Installation of App :-
+1. Click here to download the sps-import-from-excel.sppkg.
+2. Visit the Microsoft 365 SharePoint Admin Center
+3. Go to Apps -> App Catalog. If you don't have app catalog, here are the instuctions for creating one.https://www.youtube.com/watch?v=xEc8X7VVtc8
+
+If you have Site Collection level App Catalog, just to to Apps for SharePoint from your site collection.
+
+4. Click 'Upload' and select sps-import-from-excel.sppkg file to upload.
+5. Check the box for Make this solution available to all sites in the organization and click the Deploy button.
+6. A successful installation will look like this: 
+
+
+7. if you receive an App Package Error Message stating, "Deployment failed," as shown here, simply delete the .sppkg file and repeat steps 4 and 5 to redeploy.
+
+8. Now go to the site where you want this tool. Just create a new page or edit existing page and add a webpart 'SPS Import From Excel'.
+
+This tool has help on each steps. You can read and start exporting or importing the excel.
